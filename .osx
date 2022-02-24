@@ -70,6 +70,11 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
 # defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 0
 
+# Trackpad: Tap to click
+# Not working
+# defaults write com.apple.AppleMultitouchTrackpad Clicking -int 0
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -int 0
+
 # Only show scroll bars when scrolling
 defaults write -globalDomain AppleShowScrollBars -string "WhenScrolling"
 
