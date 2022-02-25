@@ -13,7 +13,10 @@ export CLICOLOR_FORCE=1
 unsetopt nomatch
 
 # Nicer prompt.
-export PS1=$'\n'"%F{green} %*%F %3~ %F{white}"$'\n'"$ "
+# export PS1=$'\n'"%F{green} %*%F %3~ %F{white}"$'\n'"$ "
+
+# Powerlevel10k
+source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # Enable plugins.
 plugins=(git brew history history-substring-search)
