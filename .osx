@@ -84,6 +84,9 @@ defaults write -globalDomain AppleShowScrollBars -string "WhenScrolling"
 # defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 2
 # defaults write NSGlobalDomain ContextMenuGesture -int 1
 
+# Trackpad two finger swipe back
+defaults write -globalDomain AppleEnableSwipeNavigateWithScrolls -bool true
+
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
