@@ -106,6 +106,9 @@ function denter() {
  return 0
 }
 
+# Execute artisan command using docker-compose
+alias dpa='docker-compose exec php-fpm php artisan'
+
 # Delete a given line number in the known_hosts file.
 knownrm() {
  re='^[0-9]+$'
