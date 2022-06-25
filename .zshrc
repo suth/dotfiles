@@ -55,6 +55,9 @@ source ${share_path}/zsh-history-substring-search/zsh-history-substring-search.z
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
 
+# Use syntax highlighting
+source ${share_path}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Git aliases.
 alias gs='git status'
 alias gc='git commit'
@@ -141,5 +144,3 @@ export COMPOSER_MEMORY_LIMIT=-1
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
