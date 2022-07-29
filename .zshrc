@@ -23,7 +23,10 @@ unsetopt nomatch
 # export PS1=$'\n'"%F{green} %*%F %3~ %F{white}"$'\n'"$ "
 
 # Powerlevel10k
-source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+# Intel
+# source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
+# ARM
+source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
 
 # Enable plugins.
 plugins=(git brew history history-substring-search)
