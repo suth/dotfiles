@@ -26,7 +26,7 @@ unsetopt nomatch
 # Intel
 # source /usr/local/opt/powerlevel10k/powerlevel10k.zsh-theme
 # ARM
-source /opt/homebrew/opt/powerlevel10k/powerlevel10k.zsh-theme
+source /opt/homebrew/share/powerlevel10k/powerlevel10k.zsh-theme
 
 # Enable plugins.
 plugins=(git brew history history-substring-search)
